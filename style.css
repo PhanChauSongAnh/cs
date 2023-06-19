@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cover{
+    width:100%;
+    height: 500vh;
+
+}
+.navbar{
+    width: 100%;
+    height: 18vh;
+    background-color: black;
+    position: relative;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    font-size: 40px;
+    border-bottom: solid 2px lightgrey;
+    border-top: solid 2px lightgrey;
+    margin-top: 30px;
+    }
+.logo{
+    width: 60px;
+    height: 65px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    right: 1010px;
+    top: 34px;
+    border: solid 3px #F2BE22 ;
+}
+.navbar > h1 {
+    padding-top: 20px;
+    color: #F2BE22;
+    font-family: "Gill Sans Extrabold", sans-serif;
+}
+.picslide{
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: solid 2px lightgrey;
+}
+.he{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left:95vh;
+    top:10vh
+}
+.hi{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left:90vh;
+    top:35vh;
+    text-align: center;
+}
+.boxslide1{
+    width: 45%;
+    height: 70vh;
+    position: absolute;
+    top: 45px;
+    right: -10px;
+    border: solid black 10px;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.tv{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.slidecontent{
+    position: absolute;
+    bottom: 30px;
+    right:260px;
+    font-size: 40px;
+    color: black ;
+}
+.boxslide2{
+    width: 28%;
+    height: 40vh;
+    position: absolute;
+    top: 360px;
+    right: 575px;
+    border: solid black 10px;
+}
+.slide2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.art{
+    width: 8%;
+    height: 10vh;
+    position: absolute;
+    background-color: #E1E1E5;
+    right: 180px;
+    top:75.4vh;
+}
+.art1{
+    width:20%;
+    height: 2vh;
+    position: absolute;
+    background-color: #C9C8CC;
+    right: 90px;
+    top:83.4vh;
+    border-radius: 10%;
+}
+.stick{
+    width:32%;
+    height: 2vh;
+    position: absolute;
+    background-color: #C9C8CC;
+    right: 66vh;
+    top:83.4vh;
+    border-radius: 10%;
+
+}
+.ct{
+    width: 30%;
+    height: 100%;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 20vh;
+}
+.ct1{
+    width: 100%;
+    height: 35%;  
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+    color:#F2BE22;
+    border-bottom: solid 2px lightgrey;
+    font-weight: bold;
+}
+.ct2{
+    width: 100%;
+    height: 40%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 24px;
+}
+.ct2 > i {
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content{
+    width: 100%;
+    height: 60vh;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 22%;
+    height: 95%;
+    background-color:black;
+    margin-left: 60px;
+    border-radius: 10%;
+}
+.icon{
+    width: 100%;
+    height: 30%;
+
+    text-align: center;
+}
+.iconpic{
+    width: 20%;
+    height: 50%;
+    margin-top: 20px;
+}
+.info{
+    width: 100%;
+    height: 70%;
+    background-color:#F2BE22;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+    padding-top: 40px;
+    border-radius: 10%;
+}
+.judge{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+}
